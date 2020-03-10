@@ -1,5 +1,7 @@
 {
   "name": "AliyunSVideoDemo",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
