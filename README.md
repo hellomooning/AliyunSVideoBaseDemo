@@ -1,20 +1,20 @@
 # AliyunSVideoDemo
 
 ### 1.新建ionic项目
-ionic start
+    ionic start
 
 ### 2.添加Android平台
-ionic cordova prepare android
+    ionic cordova prepare android
 
 ### 3.添加插件
-ionic cordova plugin add https://github.com/hellomooning/AliyunSVideoBase.git
+    ionic cordova plugin add https://github.com/hellomooning/AliyunSVideoBase.git
 
 ### 4.调用
 #### 视频拍摄
-cordova.plugins.AliyunSVideoBase.startRecord();
+    cordova.plugins.AliyunSVideoBase.startRecord();
 
 #### 视频剪辑
-cordova.plugins.AliyunSVideoBase.startCrop();
+    cordova.plugins.AliyunSVideoBase.startCrop();
 
 ## Preview
 | page1 | page2 | page3 |
